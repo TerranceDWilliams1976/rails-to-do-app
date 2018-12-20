@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   resources :lists
   
   root 'lists#index'
+  get 'home/trash'
+  get 'home/trash_all'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
